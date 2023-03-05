@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 
     if(file=="/")
     {
-        filename = domain+ "_index.txt";
+        filename = domain+ "_index.html";
     }
     // Tạo socket và kết nối đến máy chủ web
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
