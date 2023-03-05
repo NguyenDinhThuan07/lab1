@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
         domain = domain.substr(0, pos);
     }
 
-    if(file=="/" || " ")
+    if(file=="/")
     {
         filename = domain+ "_index.txt";
     }
